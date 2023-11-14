@@ -81,6 +81,7 @@ for button in number_buttons:
               font=('Arial', 14),
               bg='gray',
               fg='black',
+              relief='ridge',
               command=lambda b=button: add_number(b)).grid(row=row_val, column=col_val, padx=5, pady=5)
     col_val += 1
     if col_val > 2:
